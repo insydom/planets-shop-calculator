@@ -1,0 +1,53 @@
+
+.calculator-container {
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  margin: 1px;
+  border-radius: 16px;
+}
+
+.buttons-container {
+  background-color: black;
+  border-radius: 16px;
+}
+
+.btn-operator {
+  background-color: orange;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.random-planets {
+  display: flex;
+}
+
+.planet {
+  margin: 32px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 12px 32px;
+  background-color: #521073;
+}
+
+.planet .planet-title {
+  font-size: 2.5em;
+}
+
+.planet p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.planet span {
+  font-size: 1em;
+  font-weight: normal;
+  display: inline-block;
+}
